@@ -51,14 +51,14 @@ const MovieDetails = () => {
           <img
             src={movie?.image}
             alt={movie?.name}
-            className="w-[70%] rounded"
+            className="w-[50%] rounded"
           />
         </div>
         {/* Container One */}
         <div className="container  flex justify-between ml-[20rem] mt-[3rem]">
           <section>
             <h2 className="text-5xl my-4 font-extrabold">{movie?.name}</h2>
-            <p className="my-4 xl:w-[35rem] lg:w-[35rem] md:w-[30rem] text-[#B0B0B0]">
+            <p className="a xl:w-[35rem] lg:w-[35rem] md:w-[30rem] text-[#B0B0B0]">
               {movie?.detail}
             </p>
           </section>

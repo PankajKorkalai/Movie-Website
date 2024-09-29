@@ -22,7 +22,7 @@ const Header = () => {
         </Link>
       </nav>
 
-      <div className="w-full md:w-[80%] mr-0 md:mr-2">
+      <div className="w-full md:w-[85%] mr-0 md:mr-2">
         <SliderUtil data={data} />
       </div>
     </div>
